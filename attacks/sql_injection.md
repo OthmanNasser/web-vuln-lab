@@ -52,3 +52,11 @@ sqlmap -u "http://192.168.56.105/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" 
 DVWA allows switching security levels. Try on both low and medium.
 Use --risk and --level flags in SQLMap to get deeper results.
 ```
+---
+
+✅ Conclusion
+```
+The target is vulnerable to SQL Injection.
+By injecting OR 1=1, authentication is bypassed.
+Using SQLMap, it was possible to extract DB names without credentials.
+```
